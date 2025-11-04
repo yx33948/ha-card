@@ -1,0 +1,15 @@
+{
+  "domain": "card_installer",
+  "name": "卡片一键安装器",
+  "version": "1.0.0",
+  "documentation": "https://github.com/your-repo/card-installer",
+  "issue_tracker": "https://github.com/your-repo/card-installer/issues",
+  "codeowners": ["@your-username"],
+  "config_flow": true,
+  "dependencies": [],
+  "requirements": ["aiohttp", "aiofiles"],
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "homeassistant": "2023.1.0"
+}
+

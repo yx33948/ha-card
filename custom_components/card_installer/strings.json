@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "卡片一键安装器",
+        "description": "配置 Git 仓库信息以安装 Lovelace 卡片",
+        "data": {
+          "repo_url": "仓库 URL",
+          "branch": "分支",
+          "auto_update": "自动更新",
+          "update_interval": "更新间隔（秒）"
+        }
+      }
+    },
+    "error": {
+      "invalid_repo_url": "无效的仓库 URL。请使用 Gitee 或 GitHub 仓库地址。"
+    },
+    "abort": {
+      "already_configured": "该集成已配置。"
+    }
+  }
+}
+

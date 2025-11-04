@@ -1,0 +1,32 @@
+install_cards:
+  name: 安装卡片
+  description: 从配置的仓库安装所有卡片
+  fields: {}
+
+update_cards:
+  name: 更新卡片
+  description: 更新已安装的卡片文件
+  fields: {}
+
+remove_card:
+  name: 移除卡片
+  description: 移除指定的卡片
+  fields:
+    url:
+      name: 资源URL
+      description: 要移除的卡片资源URL（例如 /local/community/card.js）
+      required: false
+      selector:
+        text:
+    filename:
+      name: 文件名
+      description: 要移除的卡片文件名（例如 card.js）
+      required: false
+      selector:
+        text:
+
+add_local_cards_to_resources:
+  name: 添加本地卡片到资源
+  description: 将已下载到 www/community 目录的卡片文件添加到 Lovelace 资源中
+  fields: {}
+
